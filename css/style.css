@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    font-weight: 700;
+    color: var(--black);
+    font-family: sans-serif;
+}
+
+.panel {
+    background: black;
+    background-size: cover;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    display: flex;
+}
+
+.panel h3 {
+    display: inline-block;
+    color: #FFF;
+    position: absolute;
+    left: 5%;
+}
+
+.btn1 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    width: 1000px;
+    top: 3%;
+    position: absolute;
+}
+
+.btn2 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    width: 1100px;
+    top: 3%;
+    position: absolute;
+}
+
+.btn3 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    width: 1200px;
+    top: 3%;
+    position: absolute;
+}
+
+.btn4 {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    width: 1300px;
+    top: 3%;
+    position: absolute;
+}
+
+.picture {
+    min-height: 800px;
+    background-image: url('../img/fashion-fashion-model-fashionable-1161747.jpg');
+    background-size: 80vmax;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.information {
+    background: rgb(99, 97, 97);
+    color: white;
+    padding: 2px;
+    margin: 1rem;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+}
+
+.items {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.item {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.item .pilt{
+    font-size: 3rem;
+}
+.item p {
+    color: rgba(0, 0, 0, 0, 0.5);
+}
+.item .TT {
+    display: inline-block;
+    color: black;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
